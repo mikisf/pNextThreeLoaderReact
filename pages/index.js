@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import dynamic from 'next/dynamic';
 
-const PNextThreeLoader = dynamic(() => import('../pages/PNextThreeLoader'), {
+const PNextThreeLoader = dynamic(() => import('../components/PNextThreeLoader'), {
     ssr: false,
 });
 

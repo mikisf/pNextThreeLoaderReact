@@ -3,7 +3,7 @@ import * as THREE from "three";
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { PointCloudOctree, Potree } from '@pnext/three-loader';
 
-export default function Home() {
+export default function PNextThreeLoader() {
 
     const mountRef = useRef(null);
     const [rendererVar, setRendererVar] = useState()
