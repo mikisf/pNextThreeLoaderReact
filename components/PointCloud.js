@@ -42,7 +42,7 @@ const PointCloud = () => {
         });
 
         const render = () => {
-            console.log("render")
+            //console.log("render")
             renderer.render(scene, camera)
             potree.updatePointClouds(pointClouds, camera, renderer)
         }
