@@ -52,7 +52,7 @@ const PointCloud = () => {
             requestAnimationFrame(animate);
             render()
         }
-        //animate()
+        animate()
 
         const controls = new OrbitControls(camera, renderer.domElement);
         controls.update()
